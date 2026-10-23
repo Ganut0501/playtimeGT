@@ -299,19 +299,90 @@ section {
   display: flex;
   width: 1200px;
   height: 553px;
-  background-color: #0566d9;
 }
 .SPONSORS {
   width: 580px;
   height: 457px;
-  background-color: #8ccbff;
-  border: 1px solid #8ccbff;
-  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: #ddb7ff;
 }
 .dewsger {
   width: 580px;
   height: 318px;
-  background-color: aquamarine;
+  background-color: #4d43543d;
   display: flex;
+  border: 1px solid #4d43543c;
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
   flex-wrap: wrap;
+}
+.dotor {
+  width: 237px;
+  height: 104px;
+  border: 1px solid #4d43543d;
+  background-color: #4d43543a;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partneres {
+  width: 580px;
+  height: 441px;
+  color: #adc6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.suuri {
+  width: 580px;
+  height: 344px;
+  border: 1px solid #4d4354;
+  background-color: #4d43543a;
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.inner {
+  width: 498px;
+  height: 76px;
+  border: 1px solid #4d4354;
+  background-color: #4d43543a;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.ftext {
+  color: #cfc2d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end {
+  color: #cfc2d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
